@@ -2,13 +2,13 @@
 
 This project uses SQL to analyze remote “Data Analyst” job market data, highlighting top countries, companies, platforms, and in-demand skills to provide valuable insights for job seekers.
 
-SQL queries? Check them out here: SQL_Project_Data_Job_Analysis
+SQL queries? Check them out here: [SQL_Project_Data_Job_Analysis](/SQL_Project_Data_Job_Analysis/)
 
 # Background
 
 This project was inspired by my goal to learn SQL and my interest in securing a remote Data Analyst position. I wanted to explore the countries, companies, and platforms with the most job opportunities an identify key skills for success. This information could also be valuable to others with similar career aspirations.
 
-The analysis is based on a 2023 data jobs database from all around the world, from data analyst Luke Barousse.
+The analysis is based on a 2023 data jobs database from all around the world, from data analyst [Luke Barousse](https://www.youtube.com/@LukeBarousse).
 
 ### The questions i wanted to answer through my SQL queries where:
 
@@ -22,10 +22,10 @@ The analysis is based on a 2023 data jobs database from all around the world, fr
 
 For my deep dive into the remote data analyst job market, i harnessed the power of several key tools:
 
-- SQL: The backbone of the whole analysis, it allowed me to query the database and unearth critical insights.
-- PostgreSQL: One of the best database management system, it was a great opportunity to learn to use it.
-- Visual Studio Code: The ideal enviroment to manage the database and executing SQL queries.
-- Git & GitHub: Essential for version control and sharing my SQL scripts and analysis, ensuring collaboration and project tracking.
+- **SQL**: The backbone of the whole analysis, it allowed me to query the database and unearth critical insights.
+- **PostgreSQL**: One of the best database management system, it was a great opportunity to learn to use it.
+- **Visual Studio Code**: The ideal enviroment to manage the database and executing SQL queries.
+- **Git & GitHub**: Essential for version control and sharing my SQL scripts and analysis, ensuring collaboration and project tracking.
 
 # The Analysis
 
@@ -53,7 +53,7 @@ Here is the breakdown of data analyst demand by country:
 - **Global Reach**: Countries like the Philippines, Italy, and the Netherlands also show significant demand, demonstrating the worldwide expansion of the Data Analyst role.
 - **Smaller but Growing Markets**: Nations like Malaysia and Canada are showing promising growth in data analytics job opportunities outside major markets.
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/8b0925f5-829e-4968-bbe8-8743d3afa3de/b2809e08-8a0a-40b4-a97a-5ba3ddad885e/image.png)
+![query1.png](assets\Query1.png)
 
 > *Bar graph visualizing the job postings for the top 5 countries for data analyst job postings; Made with PowerBI*
 > 
@@ -83,7 +83,7 @@ Here is the breakdown of remote data analyst job opportunities by country
 - **Southeast Asia's Rising Interest**: The Philippines and Spain are showing increasing preference for remote roles, with the Philippines emerging as a key remote job market.
 - **Emerging Remote Markets**: Countries like Sudan, Germany, and Poland round out the top 10, showing diverse global interest in remote Data Analyst roles.
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/8b0925f5-829e-4968-bbe8-8743d3afa3de/901e6b21-61e7-4cfb-bd77-f59dea77523f/image.png)
+![query2.png](assets\Query2.png)
 
 > *Bar graph visualizing the top 10 countries with the most remote data analyst job postings; Made with PowerBI*
 > 
@@ -126,7 +126,7 @@ Here is the breakdown of companies offering remote data analyst jobs in top coun
 - **UK and Philippines Presence**: Companies like "RemoteWorker UK" and "GrowthAssistant" in the UK and Philippines show their significant contributions to remote Data Analyst job postings.
 - **Diverse Industries**: Various industries, including healthcare, technology, and finance, are represented, with companies such as "UnitedHealth Group" and "Talentify.io" providing remote job opportunities.
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/8b0925f5-829e-4968-bbe8-8743d3afa3de/4a87ad80-7d06-4bf1-b6c4-7d608e04cc3a/image.png)
+![query3.png](assets\Query3.png)
 
 > Bar graph visualizing the top companies for remote data analyst jobs; Made with PowerBI
 > 
@@ -168,7 +168,7 @@ HAVING COUNT(job_id) > 100
 ORDER BY job_posts DESC;
 ```
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/8b0925f5-829e-4968-bbe8-8743d3afa3de/959832ad-1d59-4f5d-9f34-108e583637fc/image.png)
+![query4.png](assets\Query4.png)
 
 > Table of the platforms companies use to post remote data analyst jobs; Made with PowerBI
 > 
@@ -219,7 +219,7 @@ LIMIT 10
 ;
 ```
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/8b0925f5-829e-4968-bbe8-8743d3afa3de/d2d8ed05-60fa-483d-911a-0243a158a3ed/image.png)
+![query5.png](assets\Query5.png)
 
 > Table of the most demanded skills for remote data analyst jobs; Made with PowerBI
 > 
