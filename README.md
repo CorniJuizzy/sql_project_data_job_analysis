@@ -53,7 +53,7 @@ Here is the breakdown of data analyst demand by country:
 - **Global Reach**: Countries like the Philippines, Italy, and the Netherlands also show significant demand, demonstrating the worldwide expansion of the Data Analyst role.
 - **Smaller but Growing Markets**: Nations like Malaysia and Canada are showing promising growth in data analytics job opportunities outside major markets.
 
-![Query 1](readme_images\1_first_query.png)
+![Top Countries for Data Analyst Job Postings](assets\1_top_general_countries.png)
 
 > *Bar graph visualizing the job postings for the top 5 countries for data analyst job postings; Made with PowerBI*
 > 
@@ -83,7 +83,7 @@ Here is the breakdown of remote data analyst job opportunities by country
 - **Southeast Asia's Rising Interest**: The Philippines and Spain are showing increasing preference for remote roles, with the Philippines emerging as a key remote job market.
 - **Emerging Remote Markets**: Countries like Sudan, Germany, and Poland round out the top 10, showing diverse global interest in remote Data Analyst roles.
 
-![Query 2](readme_images\2_second_query.png)
+![Countries with Most Remote Data Analyst Jobs](assets\2_top_companies.png)
 
 > *Bar graph visualizing the top 10 countries with the most remote data analyst job postings; Made with PowerBI*
 > 
@@ -126,7 +126,7 @@ Here is the breakdown of companies offering remote data analyst jobs in top coun
 - **UK and Philippines Presence**: Companies like "RemoteWorker UK" and "GrowthAssistant" in the UK and Philippines show their significant contributions to remote Data Analyst job postings.
 - **Diverse Industries**: Various industries, including healthcare, technology, and finance, are represented, with companies such as "UnitedHealth Group" and "Talentify.io" providing remote job opportunities.
 
-![Query 3](readme_images\3_third_query.png)
+![Top Companies for Remote Data Analyst Jobs](assets\3_third_query.png)
 
 > Bar graph visualizing the top companies for remote data analyst jobs; Made with PowerBI
 > 
@@ -168,7 +168,7 @@ HAVING COUNT(job_id) > 100
 ORDER BY job_posts DESC;
 ```
 
-![Query 4](readme_images\4_fourth_query.png)
+![Top platforms](assets\4_fourth_query.png)
 
 > Table of the platforms companies use to post remote data analyst jobs; Made with PowerBI
 > 
@@ -219,7 +219,7 @@ LIMIT 10
 ;
 ```
 
-![Query 5](readme_images\5_fifth_query.png)
+![Top Skills](assets\5_fifth_query.png)
 
 > Table of the most demanded skills for remote data analyst jobs; Made with PowerBI
 > 
@@ -240,7 +240,7 @@ Through this project, I solidified the foundational skills of my SQL learning jo
 - **Advanced SQL Techniques**: I honed my proficiency in using GROUP BY, ORDER BY, joins, and nested queries to perform in-depth analyses with efficiency and accuracy.
 - **Seamless Tools Integration**: Leveraging PostgreSQL in conjunction with Visual Studio Code, I effectively managed the database and executed queries within a streamlined and connected environment, enhancing my workflow.
 
-# Conclusions
+# Conclusion
 
 ### Insights
 
