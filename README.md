@@ -105,7 +105,7 @@ Here is the breakdown of remote data analyst job opportunities by country
 |Sudan          |281          |
 |Germany	    |274          |
 |Poland         |268          |
-> *Bar graph visualizing the top 10 countries with the most remote data analyst job postings; Made with PowerBI*
+> *Table for the top 10 countries with the most remote data analyst job postings*
 > 
 
 ### Top Companies for Remote Data Analyst Jobs in 2023
@@ -159,7 +159,7 @@ Here is the breakdown of companies offering remote data analyst jobs in top coun
 |RemoteWorker UK	                     |United Kingdom |32           |
 |Talentify.io	                         |United States	 |32           |
 
-> Bar graph visualizing the top companies for remote data analyst jobs; Made with PowerBI
+> *Table for the top companies for remote data analyst jobs*
 > 
 
 ### Most In-Demand Skills for Remote Data Analysts in 2023
@@ -205,7 +205,7 @@ ORDER BY job_posts DESC;
 |via Get.It	      |219       |
 |via ZipRecruiter |120       |
 |via Indeed	      |101       |
-> Table of the platforms companies use to post remote data analyst jobs; Made with PowerBI
+> *Table of the platforms companies use to post remote data analyst jobs*
 > 
 
 Here is the breakdown of job platforms for remote data analyst roles
@@ -266,7 +266,7 @@ LIMIT 10
 |go	        |328    |
 |powerpoint |183    |
 |oracle	    |154    |
-> Table of the most demanded skills for remote data analyst jobs; Made with PowerBI
+> *Table of the most demanded skills for remote data analyst jobs*
 > 
 
 Here is the breakdown of in-demand skills for remote data analyst roles
