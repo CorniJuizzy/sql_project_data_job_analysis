@@ -53,9 +53,19 @@ Here is the breakdown of data analyst demand by country:
 - **Global Reach**: Countries like the Philippines, Italy, and the Netherlands also show significant demand, demonstrating the worldwide expansion of the Data Analyst role.
 - **Smaller but Growing Markets**: Nations like Malaysia and Canada are showing promising growth in data analytics job opportunities outside major markets.
 
-![Top Countries for Data Analyst Job Postings](assets\1_top_general_countries.png)
-
-> *Bar graph visualizing the job postings for the top 5 countries for data analyst job postings; Made with PowerBI*
+|Country        |Job Posting |
+|---------------|------------|
+|United States  |67956       |
+|France	        |13855       |
+|United Kingdom |10509       |
+|Germany	    |7141        |
+|Singapore	    |6642        |
+|India	        |6133        |
+|Spain	        |5182        |
+|Philippines    |4770        |
+|Italy	        |4570        |
+|Netherlands    |4126        |
+> *Table of the top 10 countries for data analyst job postings*
 > 
 
 ### Countries with Most Remote Data Analyst Jobs in 2023
@@ -83,8 +93,18 @@ Here is the breakdown of remote data analyst job opportunities by country
 - **Southeast Asia's Rising Interest**: The Philippines and Spain are showing increasing preference for remote roles, with the Philippines emerging as a key remote job market.
 - **Emerging Remote Markets**: Countries like Sudan, Germany, and Poland round out the top 10, showing diverse global interest in remote Data Analyst roles.
 
-![Countries with Most Remote Data Analyst Jobs](assets\2_top_companies.png)
-
+|Country        |Job Postings |
+|---------------|-------------|
+|United States  |5106         |
+|India	        |1050         |
+|United Kingdom |952          |
+|Philippines	|606          |
+|France	        |537          |
+|Canada	        |507          |
+|Spain	        |381          |
+|Sudan          |281          |
+|Germany	    |274          |
+|Poland         |268          |
 > *Bar graph visualizing the top 10 countries with the most remote data analyst job postings; Made with PowerBI*
 > 
 
@@ -126,7 +146,18 @@ Here is the breakdown of companies offering remote data analyst jobs in top coun
 - **UK and Philippines Presence**: Companies like "RemoteWorker UK" and "GrowthAssistant" in the UK and Philippines show their significant contributions to remote Data Analyst job postings.
 - **Diverse Industries**: Various industries, including healthcare, technology, and finance, are represented, with companies such as "UnitedHealth Group" and "Talentify.io" providing remote job opportunities.
 
-![Top Companies for Remote Data Analyst Jobs](assets\3_third_query.png)
+|Country Name                            |Job Country    |Job Postings |
+|----------------------------------------|---------------|-------------|
+|Get It Recruit - Information Technology |United States  |483          |
+|Dice                                    |Unites States  |250          |
+|Robert Half	                         |United States	 |82           |
+|Insight Global	                         |United States  |67           |
+|Get It Recruit - Finance	             |United States  |56           |
+|SAZ India	                             |India	         |55           |
+|Prometrics Solutions	                 |India	         |45           |
+|GrowthAssistant	                     |Philippines	 |32           |
+|RemoteWorker UK	                     |United Kingdom |32           |
+|Talentify.io	                         |United States	 |32           |
 
 > Bar graph visualizing the top companies for remote data analyst jobs; Made with PowerBI
 > 
@@ -168,8 +199,12 @@ HAVING COUNT(job_id) > 100
 ORDER BY job_posts DESC;
 ```
 
-![Top platforms](assets\4_fourth_query.png)
-
+|Platform	      |Job Posts |
+|-----------------|----------|
+|via LinkedIn	  |2023      |
+|via Get.It	      |219       |
+|via ZipRecruiter |120       |
+|via Indeed	      |101       |
 > Table of the platforms companies use to post remote data analyst jobs; Made with PowerBI
 > 
 
@@ -219,8 +254,18 @@ LIMIT 10
 ;
 ```
 
-![Top Skills](assets\5_fifth_query.png)
-
+|Skills	    |Demand |
+|-----------|-------|
+|sql	    |1422   |
+|excel	    |1066   |
+|python	    |834    |
+|tableau	|762    |
+|sas	    |464    |
+|power bi	|453    |
+|r	        |422    |
+|go	        |328    |
+|powerpoint |183    |
+|oracle	    |154    |
 > Table of the most demanded skills for remote data analyst jobs; Made with PowerBI
 > 
 

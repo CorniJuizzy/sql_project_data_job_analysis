@@ -13,7 +13,8 @@ SELECT
 FROM job_postings_fact
 WHERE job_title_short = 'Data Analyst'
 GROUP BY job_country
-ORDER BY job_postings DESC;
+ORDER BY job_postings DESC
+LIMIT 10;
 
 /*
 Here's the breakdown of the demand for Data Analyst roles by country:
